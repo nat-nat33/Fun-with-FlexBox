@@ -1,8 +1,23 @@
 // Imports
+@import "partials/reset";
+@import "partials/general_styles";
+@import "partials/clearfix";
+
 
 
 
 // 1. Many small items in a grid
+.block.small-grid.small-grid-flexbox
+
+ul{
+  width: 300px;
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  li{
+    flex: 1 1 auto;
+  }
+}
 
 
 
